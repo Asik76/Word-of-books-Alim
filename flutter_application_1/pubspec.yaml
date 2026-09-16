@@ -1,0 +1,48 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.6.0
+  cloud_firestore: ^6.2.0
+  image_picker: ^1.2.1
+  firebase_storage: ^13.2.0
+  firebase_auth: ^6.3.0
+  country_picker: ^2.0.27
+  intl: ^0.20.2
+  google_generative_ai: ^0.4.7
+  file_picker: ^8.0.0+1 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/alim.png
+    - assets/images/alim_icon.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/alim.png"
+  adaptive_icon_background: "#121212"
+  adaptive_icon_foreground: "assets/images/alim26.png"
+
+flutter_native_splash:
+  color: "#121212"
+  image: "assets/images/alim.png"
+  android_12:
+    image: "assets/images/alim26.png"
+    color: "#121212"

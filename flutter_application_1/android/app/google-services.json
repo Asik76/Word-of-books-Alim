@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "862348085059",
+    "project_id": "worldofbooksalim",
+    "storage_bucket": "worldofbooksalim.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862348085059:android:56a1039bc874dee52351f6",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe5yCXCPM-gO5MQ_RnVWlbfeoF4abENkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
